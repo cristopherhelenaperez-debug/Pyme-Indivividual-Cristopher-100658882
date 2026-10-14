@@ -245,6 +245,34 @@
             <p>&copy; 2026 AbbaTech - Todos los derechos reservados. Sistema Seguro Reconstruido.</p>
         </div>
     </footer>
+    <!-- Widget del Chatbot Flotante -->
+    <div id="chatbot-container" class="chatbot-container">
+        <button id="chatbot-toggle" class="chatbot-toggle" title="Asistente Virtual AbbaBot">
+            🤖 <span class="chat-badge">1</span>
+        </button>
+        <div id="chatbot-window" class="chatbot-window hidden">
+            <div class="chatbot-header">
+                <div class="bot-info">
+                    <span class="status-dot"></span>
+                    <strong>AbbaBot v2.6 [Asistente IA]</strong>
+                </div>
+                <button id="chatbot-close" class="chat-close-btn">&times;</button>
+            </div>
+
+            <div id="chatbot-messages" class="chatbot-messages">
+            </div>
+            <div id="chatbot-options" class="chatbot-options">
+                <button class="chat-opt-btn" data-response="servicios">🛠️ Servicios Seguros</button>
+                <button class="chat-opt-btn" data-response="incidente">⚠️ ¿Qué pasó en el ataque?</button>
+                <button class="chat-opt-btn" data-response="contacto">📞 Contactar Soporte</button>
+            </div>
+
+            <form id="chatbot-form" class="chatbot-input-area">
+                <input type="text" id="chatbot-input" placeholder="Escribe tu consulta aquí..." autocomplete="off">
+                <button type="submit" id="chatbot-send">➢</button>
+            </form>
+        </div>
+    </div>
     <script src="JS/main.js"></script>
 </body>
 </html>
