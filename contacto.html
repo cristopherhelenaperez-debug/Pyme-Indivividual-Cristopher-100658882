@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contacto.css">
+    <title>AbbaTech | Contacto & Pruebas del Incidente</title>
+</head>
+<body>
+    <!-- Navegador principal (Manteniendo la coherencia entre páginas) -->
+    <nav class="nav">
+        <div class="nav_banner">
+            <img src="Imagenes/logo.png" alt="Logo AbbaTech" class="logo">
+            <div class="enlaces">
+                <a href="inicio.html">Inicio</a>
+                <a href="historia.html">Historia</a>
+                <a href="index.html">Servicios Reinventados</a>
+                <a href="contacto.html" class="active">Contacto & Evidencias</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Banner principal de la sección -->
+    <header class="banner-contacto">
+        <div class="identificacion">
+            <div class="ubicacion">
+                <p class="eslogan">EXPEDIENTE #0404 - REGISTROS DE ACCESO</p>
+                <h1>Contacto & Pruebas del Incidente</h1>
+                <p class="descripcion">Comunícate con nuestro equipo o examina la evidencia del ataque neutralizado.</p>
+            </div>
+        </div>
+    </header>
+    <main class="sec main-contacto">
+        <!-- Sección 1: "Pruebas del Incidente" (Muestras / Evidencias Ficticias) -->
+        <section class="contacto-bloque">
+            <div class="sechead">
+                <h2 class="sectitle">Evidencia Decodificada del Ataque</h2>
+            </div>
+            <div class="divsec evidencia-grid">
+                <!-- Tarjeta 1: Registro de Consola / Log -->
+                <article class="card card-log">
+                    <h3>Intrusión Detectada</h3>
+                    <div class="log-box">
+                        <p><code>[11:04:02] WARNING: Unverified payload injected in port 8080.</code></p>
+                        <p><code>[11:04:05] ALERT: Main database corrupted. Systems shut down.</code></p>
+                        <p><code>[11:05:00] RECOVERY: Core defense initialized by AbbaTech Devs.</code></p>
+                    </div>
+                    <p>Captura del momento exacto del colapso y posterior aislamiento del malware.</p>
+                </article>
+                <!-- Tarjeta 2: Captura / Evidencia Visual -->
+                <article class="card card-evidencia">
+                    <h3>Fragmento de Pantalla Glitch</h3>
+                    <img src="Imagenes/error404.webp" alt="Captura de pantalla con código corrupto durante el ataque" class="img">
+                    <p>Registro gráfico de la interferencia generada antes del bloqueo del sistema.</p>
+                </article>
+                <!-- Tarjeta 3: Certificado de Parcheo / Blindaje -->
+                <article class="card card-certificado">
+                    <h3>Protocolo de Blindaje</h3>
+                    <div class="badge-status">
+                        <span class="status-ok">SISTEMA RESTAURADO 100%</span>
+                    </div>
+                    <p>Certificación de aislamiento completo de amenazas y cifrado de extremo a extremo.</p>
+                </article>
+            </div>
+        </section>
+        <!-- Sección 2: Formulario de Contacto Interactivo -->
+        <section class="contacto-bloque formulario-sec">
+            <div class="sechead">
+                <h2 class="sectitle">Canal Seguro de Comunicación</h2>
+            </div>
+            <form action="#" method="POST" class="form-contacto">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo o Identificador:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Alex Mercer" required>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="cliente@dominio.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="asunto">Asunto del Mensaje:</label>
+                    <select id="asunto" name="asunto">
+                        <option value="consulta">Consulta de Productos / Servicios</option>
+                        <option value="soporte">Soporte Técnico Especializado</option>
+                        <option value="incidente">Reporte de Anomalía / Seguridad</option>
+                        <option value="cotizacion">Solicitud de Cotización en Línea</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje o Transmisión:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Transmisión Segura</button>
+            </form>
+        </section>
+        <!-- Sección 3: Ubicación Físico-Digital (Ideal para la API de Mapa del Extra) -->
+        <section class="contacto-bloque mapa-sec">
+            <div class="sechead">
+                <h2 class="sectitle">Ubicación del Cuartel General de AbbaTech</h2>
+            </div>
+            <p class="mapa-desc">Nuestra sede física ha sido reforzada con seguridad perimetral.</p>
+            <!-- Contenedor donde se montará el mapa (API de Leaflet / Google Maps en JS) -->
+            <div id="mapa-container" class="mapa-box">
+                <p class="mapa-placeholder">[ Cargar Mapa de Ubicación vía API ]</p>
+            </div>
+        </section>
+    </main>
+    <!-- Pie de página semántico -->
+    <footer>
+        <p>&copy; 2026 AbbaTech - Sistema Reconstruido & Protegido</p>
+    </footer>
+</body>
+</html>
