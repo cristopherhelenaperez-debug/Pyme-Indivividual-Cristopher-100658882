@@ -334,6 +334,7 @@ footer{
     text-align: center;
     transition: opacity 0.8s ease, visibility 0.8s ease;
     font-family: 'Courier New', Courier, monospace;
+    z-index: 10000;
 }
 
 .error-content {
