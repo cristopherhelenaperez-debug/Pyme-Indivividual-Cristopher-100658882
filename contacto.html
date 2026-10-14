@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Imagenes/logo.png">
     <link rel="stylesheet" href="CSS/contacto.css">
-    <title>AbbaTech | Contacto & Pruebas del Incidente</title>
+    <title>AbbaTech Contacto & Pruebas del Incidente</title>
 </head>
 <body>
     <!-- Navegador principal (Manteniendo la coherencia entre páginas) -->
     <nav class="nav">
         <div class="nav_banner">
-            <img src="Imagenes/logo.png" alt="Logo AbbaTech" class="logo">
+            <img src="Imagenes/Logo.jpeg" alt="Logo AbbaTech" class="logo">
             <div class="enlaces">
-                <a href="inicio.html">Inicio</a>
-                <a href="historia.html">Historia</a>
+                <a href="index.html">Inicio</a>
                 <a href="index.html">Servicios Reinventados</a>
-                <a href="contacto.html" class="active">Contacto & Evidencias</a>
+                <a href="historia.html">Historia</a>
             </div>
         </div>
     </nav>
-    <!-- Banner principal de la sección -->
     <header class="banner-contacto">
         <div class="identificacion">
             <div class="ubicacion">
@@ -30,13 +29,11 @@
         </div>
     </header>
     <main class="sec main-contacto">
-        <!-- Sección 1: "Pruebas del Incidente" (Muestras / Evidencias Ficticias) -->
         <section class="contacto-bloque">
             <div class="sechead">
                 <h2 class="sectitle">Evidencia Decodificada del Ataque</h2>
             </div>
             <div class="divsec evidencia-grid">
-                <!-- Tarjeta 1: Registro de Consola / Log -->
                 <article class="card card-log">
                     <h3>Intrusión Detectada</h3>
                     <div class="log-box">
@@ -46,13 +43,11 @@
                     </div>
                     <p>Captura del momento exacto del colapso y posterior aislamiento del malware.</p>
                 </article>
-                <!-- Tarjeta 2: Captura / Evidencia Visual -->
                 <article class="card card-evidencia">
                     <h3>Fragmento de Pantalla Glitch</h3>
                     <img src="Imagenes/error404.webp" alt="Captura de pantalla con código corrupto durante el ataque" class="img">
                     <p>Registro gráfico de la interferencia generada antes del bloqueo del sistema.</p>
                 </article>
-                <!-- Tarjeta 3: Certificado de Parcheo / Blindaje -->
                 <article class="card card-certificado">
                     <h3>Protocolo de Blindaje</h3>
                     <div class="badge-status">
@@ -62,12 +57,12 @@
                 </article>
             </div>
         </section>
-        <!-- Sección 2: Formulario de Contacto Interactivo -->
-        <section class="contacto-bloque formulario-sec">
+        <section class="contacto-bloque formulario">
             <div class="sechead">
                 <h2 class="sectitle">Canal Seguro de Comunicación</h2>
+                <p><strong>Si ve algún glitch o error en la página, reportalo tan pronto como puedas! Eso nos ayuda a evitar otr gran perdida.</strong></p>
             </div>
-            <form action="#" method="POST" class="form-contacto">
+            <form action="#" method="POST" class="form">
                 <div class="form-group">
                     <label for="nombre">Nombre Completo o Identificador:</label>
                     <input type="text" id="nombre" name="nombre" placeholder="Ej. Alex Mercer" required>
@@ -92,7 +87,6 @@
                 <button type="submit" class="btn-enviar">Enviar Transmisión Segura</button>
             </form>
         </section>
-        <!-- Sección 3: Ubicación Físico-Digital (Ideal para la API de Mapa del Extra) -->
         <section class="contacto-bloque mapa-sec">
             <div class="sechead">
                 <h2 class="sectitle">Ubicación del Cuartel General de AbbaTech</h2>
