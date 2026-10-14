@@ -4,6 +4,16 @@ body{
     background-color: #138;
 }
 
+/*Logo*/
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    top: 2px;
+    left: 20px;
+}
+
 /*nav*/
 nav{
     background-color: #FFF9;
@@ -118,4 +128,13 @@ footer{
     text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+.form input, .form textarea{
+    padding: 10px;
+    background-color: #FFF8F0;
+    color: #3E2723;
+    border: 1px solid #6D4C41;
+    border-radius: 5px;
+    width: 40%;
 }
